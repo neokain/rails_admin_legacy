@@ -10,7 +10,7 @@ module RailsAdmin
         RailsAdmin::Config::Actions.register(self)
 
         register_instance_option :link_icon do
-          'icon-level-up'
+          'icon-retweet'
         end
 
         register_instance_option :member do
