@@ -3,3 +3,4 @@ en:
     actions:
       legacy:
         menu: "Legacy"
+        done: "Migrate"

@@ -37,8 +37,8 @@ module RailsAdmin
           Proc.new do
             if request.get?
               @object.migrate
-              flash[:success] = "Migrate completed"
-              # redirect_to back_or_index
+              flash[:success] = t("admin.flash.successful", :name => @model_config.label, :action => t("admin.actions.legacy.done"))
+              redirect_to back_or_index
             end
           end
         end
